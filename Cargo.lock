@@ -723,7 +723,7 @@ checksum = "a28ac98ddc8b9274cb41bb4d9d4d5c425b6020c50c46f25559911905610b4a88"
 
 [[package]]
 name = "whisplay"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "emojis",
@@ -734,7 +734,7 @@ dependencies = [
 
 [[package]]
 name = "whisplay-driver"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "bytemuck",
  "fast_image_resize",
