@@ -1,0 +1,16 @@
+[package]
+name = "whisplay"
+description = "A CLI and Rust library for displaying text, emoji, images and GIFs on Whisplay"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive", "env"] }
+whisplay-driver = { version = "0.1.0", path = "../whisplay-driver" }
+glyph_brush_layout = "=0.2.4"
+emojis = "=0.9.1"
+serde_json = "1"

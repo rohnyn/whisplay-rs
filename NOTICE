@@ -1,0 +1,14 @@
+Whisplay Rust
+
+The LCD initialization sequence in
+whisplay-driver/src/bin/whisplayd/hardware.rs is adapted from PiSugar Whisplay's
+runtime/whisplay.py (WhisplayBoard._init_display), licensed under Apache-2.0:
+https://github.com/PiSugar/Whisplay
+
+The Rust implementation uses gpio-cdev and spidev, with display ownership,
+rendering and playback implemented in this project. See LICENSE for Apache-2.0.
+
+tests/fixtures/fry-money.gif and its fry-money-68.gif test variant are
+third-party Futurama media sourced from Tenor:
+https://tenor.com/view/futurama-philip-j-fry-shut-up-and-take-my-money-take-my-money-dollars-gif-4970136
+It retains its original rights and is not covered by the code's Apache-2.0 license.

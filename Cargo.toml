@@ -1,0 +1,19 @@
+[workspace]
+members = ["whisplay-driver", "whisplay"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "Apache-2.0"
+repository = "https://github.com/rohnyn/whisplay-rs"
+readme = "README.md"
+
+[profile.release]
+strip = true
+
+[profile.profiling]
+inherits = "release"
+debug = 1
+strip = "none"
